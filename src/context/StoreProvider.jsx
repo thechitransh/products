@@ -30,10 +30,8 @@ function StoreProvider({ children }) {
           setprice,
           PriceSearch,
           setPriceSearch,
-          setdata,
         }}
       >
-        {/* {console.log(data)}y */}
         {children}
       </Store.Provider>
     </>

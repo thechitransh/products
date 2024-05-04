@@ -4,7 +4,7 @@ import { Store } from "../context/Store";
 function Search() {
   const { input, setinput } = useContext(Store);
   const { price, setprice } = useContext(Store);
-  const { PriceSearch, setPriceSearch } = useContext(Store);
+  const { setPriceSearch } = useContext(Store);
   const HandleInput = (e) => {
     setinput(e.target.value);
   };
